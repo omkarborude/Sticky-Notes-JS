@@ -1,0 +1,58 @@
+body{
+    background: #c68c53a8;
+    font-family: "Architects Daughter";
+    font-size: 24px;
+}
+
+.main{
+    width: 95%;
+    margin: auto;
+}
+.cont1{
+    margin-left: 5%;
+}
+
+.cont2{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-left: 5%;
+}
+
+.cont3{
+    /* display: none; */
+    position: absolute;
+    top: 26%;
+    left: 40%;
+}
+
+textarea{
+    box-shadow: 10px 10px 24px 0px rgba(0, 0, 0, 0.75);
+    outline: none;
+    border: none;
+    width: 275px;
+    height: 275px;
+    padding: 50px 25px 25px 25px;
+    font-size: 24px;
+    border-radius: 10px;
+}
+
+#checkBTN{
+    position: absolute;
+    top: 3%;
+    right: 15%;
+}
+#checkBTN:hover{
+    color: blue;
+    cursor: pointer;
+}
+#cutBTN{
+    position: absolute;
+    top: 3%;
+    right: 5%;
+}
+#cutBTN:hover{
+    color: red;
+    cursor: pointer;
+}
