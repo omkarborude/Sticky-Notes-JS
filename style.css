@@ -21,7 +21,7 @@ body{
 }
 
 .cont3{
-    /* display: none; */
+    display: none; 
     position: absolute;
     top: 26%;
     left: 40%;
