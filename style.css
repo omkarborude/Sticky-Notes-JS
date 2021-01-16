@@ -58,9 +58,16 @@ textarea{
 }
 
 #sticktext{
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     font-size: 26px;
     padding: 20px;
     overflow: hidden;
+}
+#stick{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
 }
