@@ -48,4 +48,6 @@ checkBTN.addEventListener("click", () => {
 
     cont2.insertAdjacentElement("beforeend",node0);
 
+    
 })
+
