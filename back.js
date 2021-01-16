@@ -21,6 +21,8 @@ createBTN.addEventListener("click", () => {
 });
 // cloasing notepad
 cutBTN.addEventListener("click", () => {
+
+    
     if(cont3.style.display = "block"){
         cont3.style.display = "none";
     }
@@ -32,11 +34,18 @@ cutBTN.addEventListener("click", () => {
 
 // creating div for note
 checkBTN.addEventListener("click", () => {
-    var stick = document.createElement("div");
-    stick.id = 'stick';
+    var getin = document.getElementById('getin').value;
 
-    var stickText = document.createElement('h1');
-    stickText.id = 'sticktext';
+    var node0 = document.createElement("div");
+    node0.id = 'stick';
 
-    stickText.innerHTML = getin;
+    var node1 = document.createElement('h1');
+    node1.id = 'sticktext';
+
+    node1.innerHTML = getin;
+
+    node0.appendChild(node1);
+
+    cont2.insertAdjacentElement("beforeend",node0);
+
 })
