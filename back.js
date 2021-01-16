@@ -36,17 +36,17 @@ cutBTN.addEventListener("click", () => {
 checkBTN.addEventListener("click", () => {
     var getin = document.getElementById('getin').value;
 
-    var node0 = document.createElement("div");
-    node0.id = 'stick';
+    var stick = document.createElement("div");
+    stick.id = 'stick';
 
-    var node1 = document.createElement('h1');
-    node1.id = 'sticktext';
+    var sticktext = document.createElement('h1');
+    sticktext.id = 'sticktext';
 
-    node1.innerHTML = getin;
+    sticktext.innerHTML = getin;
 
-    node0.appendChild(node1);
+    stick.appendChild(sticktext);
 
-    cont2.insertAdjacentElement("beforeend",node0);
+    cont2.insertAdjacentElement("beforeend",stick);
 
     
 })
