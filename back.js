@@ -31,4 +31,10 @@ cutBTN.addEventListener("click", () => {
 });
 
 // creating div for note
+checkBTN.addEventListener("click", () => {
+    var stick = document.createElement("div");
+    stick.id = 'stick';
 
+    var stickText = document.createElement('h1');
+    stickText.id = 'sticktext';
+})
