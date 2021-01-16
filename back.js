@@ -1,5 +1,6 @@
 var cont2 = document.getElementsByClassName("cont2")[0];
 var cont3 = document.getElementsByClassName("cont3")[0];
+var noteText = document.getElementById('geting').value;
 
 var createBTN = document.getElementById('BTN');
 var checkBTN = document.getElementById('checkBTN');
@@ -29,4 +30,5 @@ cutBTN.addEventListener("click", () => {
 
 });
 
+// creating div for note
 
