@@ -1,6 +1,6 @@
 var cont2 = document.getElementsByClassName("cont2")[0];
 var cont3 = document.getElementsByClassName("cont3")[0];
-var noteText = document.getElementById('geting').value;
+var getin = document.getElementById('getin').value;
 
 var createBTN = document.getElementById('BTN');
 var checkBTN = document.getElementById('checkBTN');
@@ -37,4 +37,6 @@ checkBTN.addEventListener("click", () => {
 
     var stickText = document.createElement('h1');
     stickText.id = 'sticktext';
+
+    stickText.innerHTML = getin;
 })
