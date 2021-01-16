@@ -56,3 +56,9 @@ textarea{
     color: red;
     cursor: pointer;
 }
+
+node0{
+    width: 200px;
+    height: 50px;
+    background-color: red;
+}

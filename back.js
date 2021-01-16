@@ -5,6 +5,8 @@ var createBTN = document.getElementById('BTN');
 var checkBTN = document.getElementById('checkBTN');
 var cutBTN = document.getElementById('cutBTN');
 
+var node0 = document.createElement("div");
+
 var i = 0;
 
 // opening notepad
@@ -18,7 +20,13 @@ createBTN.addEventListener("click", () => {
 });
 // cloasing notepad
 cutBTN.addEventListener("click", () => {
-   if
-} )
+    if(cont3.style.display = "block"){
+        cont3.style.display = "none";
+    }
+    else {
+        cont3.style.display = "none";
+    }
+
+});
 
 
