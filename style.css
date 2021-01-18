@@ -52,6 +52,8 @@ body{
     position: absolute;
     top: 26%;
     left: 40%;
+    opacity: 0;
+    
 }
 
 textarea{
