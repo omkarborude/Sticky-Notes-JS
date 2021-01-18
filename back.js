@@ -71,7 +71,10 @@ checkBTN.addEventListener("click", () => {
     trashBTN.addEventListener("click", () => {
         stick.remove();
     })
-}
+
+ }
+ 
+
 })
 
 
