@@ -36,6 +36,12 @@ cutBTN.addEventListener("click", () => {
 checkBTN.addEventListener("click", () => {
     var getin = document.getElementById('getin').value;
 
+    if(getin === ''){
+        alert("Please Enter Some Text !!")
+    } else{
+
+   
+    
     var stick = document.createElement("div");
     stick.id = 'stick';
 
@@ -65,7 +71,7 @@ checkBTN.addEventListener("click", () => {
     trashBTN.addEventListener("click", () => {
         stick.remove();
     })
-    
+}
 })
 
 
