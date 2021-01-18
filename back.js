@@ -36,7 +36,7 @@ cutBTN.addEventListener("click", () => {
 checkBTN.addEventListener("click", () => {
     var getin = document.getElementById('getin').value;
 
-    if(getin === ''){
+    if(getin =! ""){
         alert("Please Enter Some Text !!")
     } else{
 
